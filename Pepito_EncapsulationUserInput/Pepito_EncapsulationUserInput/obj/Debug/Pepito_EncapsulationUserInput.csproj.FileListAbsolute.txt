@@ -1,0 +1,7 @@
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\bin\Debug\Pepito_EncapsulationUserInput.exe.config
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\bin\Debug\Pepito_EncapsulationUserInput.exe
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\bin\Debug\Pepito_EncapsulationUserInput.pdb
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\obj\Debug\Pepito_EncapsulationUserInput.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\obj\Debug\Pepito_EncapsulationUserInput.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\obj\Debug\Pepito_EncapsulationUserInput.exe
+C:\Users\ACT-STUDENT\Desktop\Pepito_\Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput\obj\Debug\Pepito_EncapsulationUserInput.pdb
