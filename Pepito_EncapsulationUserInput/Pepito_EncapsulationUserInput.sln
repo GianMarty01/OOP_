@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pepito_EncapsulationUserInput", "Pepito_EncapsulationUserInput\Pepito_EncapsulationUserInput.csproj", "{7045B0D5-202F-4044-B567-517C4EA4B14C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7045B0D5-202F-4044-B567-517C4EA4B14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7045B0D5-202F-4044-B567-517C4EA4B14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7045B0D5-202F-4044-B567-517C4EA4B14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7045B0D5-202F-4044-B567-517C4EA4B14C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C96EA8A4-DF03-43CD-A420-B6245056320E}
+	EndGlobalSection
+EndGlobal
