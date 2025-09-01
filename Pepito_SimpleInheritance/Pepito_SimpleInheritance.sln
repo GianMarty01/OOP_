@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pepito_SimpleInheritance", "Pepito_SimpleInheritance\Pepito_SimpleInheritance.csproj", "{D657B317-F37F-4BDF-ACB8-B324251A708F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D657B317-F37F-4BDF-ACB8-B324251A708F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D657B317-F37F-4BDF-ACB8-B324251A708F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D657B317-F37F-4BDF-ACB8-B324251A708F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D657B317-F37F-4BDF-ACB8-B324251A708F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95166E70-3735-4429-93D8-7025F20EA790}
+	EndGlobalSection
+EndGlobal
