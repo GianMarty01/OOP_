@@ -1,0 +1,7 @@
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\bin\Debug\CONSTRUCTOR.exe.config
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\bin\Debug\CONSTRUCTOR.exe
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\bin\Debug\CONSTRUCTOR.pdb
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\obj\Debug\CONSTRUCTOR.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\obj\Debug\CONSTRUCTOR.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\obj\Debug\CONSTRUCTOR.exe
+C:\Users\ACT-STUDENT\Desktop\Constructor inheritance\CONSTRUCTOR\CONSTRUCTOR\obj\Debug\CONSTRUCTOR.pdb
