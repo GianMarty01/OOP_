@@ -1,0 +1,7 @@
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\bin\Debug\Pepito_UserInputInheritance.exe.config
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\bin\Debug\Pepito_UserInputInheritance.exe
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\bin\Debug\Pepito_UserInputInheritance.pdb
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\obj\Debug\Pepito_UserInputInheritance.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\obj\Debug\Pepito_UserInputInheritance.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\obj\Debug\Pepito_UserInputInheritance.exe
+C:\Users\ACT-STUDENT\Desktop\User Input Inheritance\Pepito_UserInputInheritance\Pepito_UserInputInheritance\obj\Debug\Pepito_UserInputInheritance.pdb
