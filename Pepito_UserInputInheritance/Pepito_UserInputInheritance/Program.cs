@@ -13,34 +13,46 @@ namespace Pepito_UserInputInheritance
         //Exer 8: 
         static void Main(string[] args)
         {
-            Console.WriteLine("-----Enter Shoe info to display-----");
-            Console.Write("Enter Brand Name: ");
-            string Brand = Console.ReadLine();
+            string sBrand;
+            double sSize;
+            Console.WriteLine("***Choose to a Type of shoes***");
+            Console.WriteLine("*** Casual Shoes or Boots ***");
+            string Kind = Convert.ToString(Console.ReadLine());
+            Console.Clear();
+            if(Kind == "Casual Shoes")
+            {
+                Console.WriteLine("***CASUAL SHOES***");
+                string sType, sColor;
+                Console.Write("Input the Brand: ");
+                sBrand = Convert.ToString(Console.ReadLine());
+                Console.Write("Input the Size: ");
+                sSize = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Input the Type: ");
+                sType = Convert.ToString(Console.ReadLine());
+                Console.Write("Input the Color: ");
+                sColor = Convert.ToString(Console.ReadLine());
+                Console.Clear();
+                CasualShoes casualShoes = new CasualShoes(sBrand, sSize, sType, sColor);
+                
+                casualShoes.CasualShoesDetails();
+            }
+            else if(Kind == "Boots") 
+            {
+                Console.WriteLine("***BOOTS***");
+                string sCuttype, sStyle;
+                Console.Write("Input the Brand: ");
+                sBrand = Convert.ToString(Console.ReadLine());
+                Console.Write("Input the Size: ");
+                sSize = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Input the Cut Type: ");
+                sCuttype = Convert.ToString(Console.ReadLine());
+                Console.Write("Input the Style: ");
+                sStyle = Convert.ToString(Console.ReadLine());
+                Console.Clear();
+                Boots boots = new Boots(sBrand, sSize, sCuttype, sStyle);
 
-            Console.Write("Enter Size: ");
-            int Size = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Enter Color: ");
-            string Color = Console.ReadLine();
-
-
-            //Intantiate A shoe object
-            Shoe shoe1 = new Shoe();
-
-            //Setting Values of the properties
-            shoe1.Brand = Brand;
-            shoe1.Size = Size;
-
-            //Calling the method to Display shoe details
-            shoe1.DisplayShoeInfo();
-
-            Adidas style = new Adidas();
-
-            style.Color = Color;
-
-            style.DisplayShoeInfo();
-            style.DisplayColor();
-
+                boots.BootsDetails();
+            }
             Console.ReadKey();
         }
     }
