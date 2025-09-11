@@ -8,45 +8,55 @@ namespace Pepito_UserInputInheritance
 {
     class Shoe      // Base class
     {
-        //private Variables and fields
         private string brand;
-        private int size;
+        private double size;
 
-        //Making the public properties for the fields
-        public string Brand
+        public Shoe (string sBrand, double sSize)
         {
-            get { return brand; }
-            set { brand = value; }
-
+            brand = sBrand;
+            size = sSize;
         }
 
-        public int Size
+        public void ShoeDetails ()
         {
-            get { return size; }
-            set { size = value; }
-
-        }
-
-        //Method to display the shoe
-        public void DisplayShoeInfo()
-        {
-            Console.WriteLine("");
-            Console.WriteLine("------Shoe Display------");
-            Console.WriteLine($"Brand: {Brand} \nSize: {Size}");
+            Console.WriteLine("Brand: " + brand);
+            Console.WriteLine("Price: " + size);
         }
     }
-    class Adidas : Shoe
+    class CasualShoes : Shoe
     {
-        private string color;
-        public string Color
+        public string type;
+        public string color;
+
+        public CasualShoes(string sBrand, double sPrice, string sType, string sColor) : base(sBrand, sPrice)
         {
-            get { return color; }
-            set { color = value; }
+            type = sType; 
+            color = sColor;
         }
-        public void DisplayColor()
+
+        public void CasualShoesDetails()
         {
-            DisplayShoeInfo();
-            Console.WriteLine("Color: " + Color);
+            ShoeDetails();
+            Console.WriteLine("Type: " + type);
+            Console.WriteLine("Size: " + color);
+        }
+    }
+    class Boots : Shoe
+    {
+        public string cuttype;
+        public string style;
+
+        public Boots(string sBrand, double sPrice, string sCuttype, string sStyle) : base(sBrand, sPrice)
+        {
+            cuttype = sCuttype;
+            style = sStyle;
+        }
+
+        public void BootsDetails()
+        {
+            ShoeDetails();
+            Console.WriteLine("Type: " + cuttype);
+            Console.WriteLine("Size: " + style);
         }
     }
 }
