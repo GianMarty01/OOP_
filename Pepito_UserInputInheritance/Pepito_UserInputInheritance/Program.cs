@@ -6,54 +6,66 @@ using System.Threading.Tasks;
 
 namespace Pepito_UserInputInheritance
 {
-    class Program
+        class Program
     {
         //Gian Marty Pepito
         //IT301
-        //Exer 8: 
+        //Exer_08:Inheritance with User Input
         static void Main(string[] args)
         {
-            string sBrand;
-            double sSize;
-            Console.WriteLine("***Choose to a Type of shoes***");
-            Console.WriteLine("*** Casual Shoes or Boots ***");
-            string Kind = Convert.ToString(Console.ReadLine());
+        Begin:
+            string aBrand;      // Fields
+            int aSize;
+            Console.WriteLine("--Choose a Type of shoes--");      //Heading, a description which gives you idea to choose a shoe
+            Console.WriteLine("----- Casual Shoes type type 'C', And for Formal Shoes type 'F' ");     //Type of shoe to choose
+            string Type = Convert.ToString(Console.ReadLine());
             Console.Clear();
-            if(Kind == "Casual Shoes")
+            if (Type == "C")   // Casual Shoe 
             {
-                Console.WriteLine("***CASUAL SHOES***");
-                string sType, sColor;
+                Console.WriteLine("----CASUAL SHOES----");
+                string aType;
+                string aColor;
                 Console.Write("Input the Brand: ");
-                sBrand = Convert.ToString(Console.ReadLine());
+                aBrand = Convert.ToString(Console.ReadLine());
                 Console.Write("Input the Size: ");
-                sSize = Convert.ToInt32(Console.ReadLine());
+                aSize = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Input the Type: ");
-                sType = Convert.ToString(Console.ReadLine());
+                aType = Convert.ToString(Console.ReadLine());
                 Console.Write("Input the Color: ");
-                sColor = Convert.ToString(Console.ReadLine());
+                aColor = Convert.ToString(Console.ReadLine());
                 Console.Clear();
-                CasualShoes casualShoes = new CasualShoes(sBrand, sSize, sType, sColor);
-                
-                casualShoes.CasualShoesDetails();
-            }
-            else if(Kind == "Boots") 
-            {
-                Console.WriteLine("***BOOTS***");
-                string sCuttype, sStyle;
-                Console.Write("Input the Brand: ");
-                sBrand = Convert.ToString(Console.ReadLine());
-                Console.Write("Input the Size: ");
-                sSize = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Input the Cut Type: ");
-                sCuttype = Convert.ToString(Console.ReadLine());
-                Console.Write("Input the Style: ");
-                sStyle = Convert.ToString(Console.ReadLine());
-                Console.Clear();
-                Boots boots = new Boots(sBrand, sSize, sCuttype, sStyle);
+                Casual casualShoes = new Casual(aBrand, aSize, aType, aColor);
 
-                boots.BootsDetails();
+                Console.WriteLine("---Casual Shoes Info");
+                casualShoes.CasualShoeDetails();
+            }
+            else if (Type == "F")
+            {
+                Console.WriteLine("----Formal Shoes----");
+                string bCuttype;
+                string bStyle;
+                Console.Write("Input the Brand: ");
+                aBrand = Convert.ToString(Console.ReadLine());
+                Console.Write("Input the Size: ");
+                aSize = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Input the Cut Type: ");
+                bCuttype = Convert.ToString(Console.ReadLine());
+                Console.Write("Input the Style: ");
+                bStyle = Convert.ToString(Console.ReadLine());
+                Console.Clear();
+                Formal boots = new Formal(aBrand, aSize, bCuttype, bStyle);
+
+                Console.WriteLine("---Formal Shoes Info");
+                boots.FormalShoeDetails();
+            }
+            else
+            {
+                Console.WriteLine("You Inputted a wrong letter. Please try again");
+                return;
+                
             }
             Console.ReadKey();
         }
     }
+    
 }
