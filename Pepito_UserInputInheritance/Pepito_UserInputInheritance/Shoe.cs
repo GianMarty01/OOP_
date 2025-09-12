@@ -7,56 +7,56 @@ using System.Threading.Tasks;
 namespace Pepito_UserInputInheritance
 {
     class Shoe      // Base class
+{
+    private string brand;      //Fields
+    private int size;
+
+    public Shoe(string aBrand, int aSize)  //Parametarized constructor
     {
-        private string brand;
-        private double size;
-
-        public Shoe (string sBrand, double sSize)
-        {
-            brand = sBrand;
-            size = sSize;
-        }
-
-        public void ShoeDetails ()
-        {
-            Console.WriteLine("Brand: " + brand);
-            Console.WriteLine("Price: " + size);
-        }
+        brand = aBrand;     //Setting up a field
+        size = aSize;
     }
-    class CasualShoes : Shoe
+
+    public void ShoeInfo()  //Method to call the basic info of the shoe
     {
-        public string type;
-        public string color;
-
-        public CasualShoes(string sBrand, double sPrice, string sType, string sColor) : base(sBrand, sPrice)
-        {
-            type = sType; 
-            color = sColor;
-        }
-
-        public void CasualShoesDetails()
-        {
-            ShoeDetails();
-            Console.WriteLine("Type: " + type);
-            Console.WriteLine("Size: " + color);
-        }
+        Console.WriteLine("Brand: " + brand);
+        Console.WriteLine("Size: " + size);
     }
-    class Boots : Shoe
+}
+class Casual : Shoe         //Derived Class
+{
+    public string type;      //Fields
+    public string color;
+
+    public Casual(string aBrand, int aSize, string bType, string bColor) : base(aBrand, aSize)  //Parametarized constructor
     {
-        public string cuttype;
-        public string style;
-
-        public Boots(string sBrand, double sPrice, string sCuttype, string sStyle) : base(sBrand, sPrice)
-        {
-            cuttype = sCuttype;
-            style = sStyle;
-        }
-
-        public void BootsDetails()
-        {
-            ShoeDetails();
-            Console.WriteLine("Type: " + cuttype);
-            Console.WriteLine("Size: " + style);
-        }
+        type = bType;     //Setting up a field
+        color = bColor;
     }
+
+    public void CasualShoeDetails()      //Method to call the Casual shoe
+    {
+        ShoeInfo();
+        Console.WriteLine("Type: " + type);
+        Console.WriteLine("Color: " + color);
+    }
+}
+class Formal : Shoe       //Derived class
+{
+    public string cuttype;      //Fields
+    public string style;
+
+    public Formal(string aBrand, int aSize, string aCuttype, string aStyle) : base(aBrand, aSize) //Parametarized constructor
+    {
+        cuttype = aCuttype;     //Setting up a field
+        style = aStyle;
+    }
+
+    public void FormalShoeDetails()      //Method to call the formal shoe
+    {
+        ShoeInfo();
+        Console.WriteLine("Type: " + cuttype);
+        Console.WriteLine("Style: " + style);
+    }
+}
 }
