@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pepito_UserInputInheritance
 {
-    class Shoe      // Base class
+   class Shoe      // Base class
 {
     private string brand;      //Fields
     private int size;
@@ -36,26 +36,26 @@ class Casual : Shoe         //Derived Class
 
     public void CasualShoeDetails()      //Method to call the Casual shoe
     {
-        ShoeInfo();
+        ShoeInfo();     // Inheriting the  base class
         Console.WriteLine("Type: " + type);
         Console.WriteLine("Color: " + color);
     }
 }
-class Formal : Shoe       //Derived class
+class Sports : Shoe       //Derived class
 {
-    public string cuttype;      //Fields
+    public string Traction;      //Fields
     public string style;
 
-    public Formal(string aBrand, int aSize, string aCuttype, string aStyle) : base(aBrand, aSize) //Parametarized constructor
+    public Sports(string aBrand, int aSize, string aTraction, string aStyle) : base(aBrand, aSize) //Parametarized constructor
     {
-        cuttype = aCuttype;     //Setting up a field
+        Traction = aTraction;     //Setting up a field
         style = aStyle;
     }
 
-    public void FormalShoeDetails()      //Method to call the formal shoe
+    public void SportShoeDetails()      //Method to call the formal shoe
     {
-        ShoeInfo();
-        Console.WriteLine("Type: " + cuttype);
+        ShoeInfo();   // Inheriting the  base class
+        Console.WriteLine("Traction: " + Traction);
         Console.WriteLine("Style: " + style);
     }
 }
