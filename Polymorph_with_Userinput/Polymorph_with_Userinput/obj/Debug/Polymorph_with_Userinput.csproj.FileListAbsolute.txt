@@ -1,0 +1,7 @@
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\bin\Debug\Polymorph_with_Userinput.exe.config
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\bin\Debug\Polymorph_with_Userinput.exe
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\bin\Debug\Polymorph_with_Userinput.pdb
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\obj\Debug\Polymorph_with_Userinput.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\obj\Debug\Polymorph_with_Userinput.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\obj\Debug\Polymorph_with_Userinput.exe
+C:\Users\ACT-STUDENT\Desktop\Polymorph_with Userinput\Polymorph_with_Userinput\Polymorph_with_Userinput\obj\Debug\Polymorph_with_Userinput.pdb
