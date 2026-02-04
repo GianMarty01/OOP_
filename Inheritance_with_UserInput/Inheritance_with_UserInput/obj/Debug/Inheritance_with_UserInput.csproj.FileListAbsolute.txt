@@ -1,0 +1,7 @@
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\bin\Debug\Inheritance_with_UserInput.exe.config
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\bin\Debug\Inheritance_with_UserInput.exe
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\bin\Debug\Inheritance_with_UserInput.pdb
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\obj\Debug\Inheritance_with_UserInput.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\obj\Debug\Inheritance_with_UserInput.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\obj\Debug\Inheritance_with_UserInput.exe
+C:\Users\ACT-STUDENT\Desktop\Inheritance_with_UserInput\Inheritance_with_UserInput\Inheritance_with_UserInput\obj\Debug\Inheritance_with_UserInput.pdb
